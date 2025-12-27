@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "brainlm"
+version = "0.1.0"
+description = "BrainLM"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "datasets",
+    # "flash-attn",  # flash-attn not required
+    "nibabel",
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "torch",
+    "tqdm",
+    "transformers",
+    "wandb",
+]
+
+[project.optional-dependencies]
+
+plots = [
+    "matplotlib",
+    "seaborn",
+    "umap-learn",
+]

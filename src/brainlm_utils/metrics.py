@@ -6,7 +6,7 @@ from sklearn.metrics import r2_score
 from transformers.trainer_utils import EvalPrediction
 from scipy.stats import pearsonr
 
-from utils.plots import (
+from brainlm_utils.plots import (
     plot_model_output_histogram,
     plot_scatterplot,
     plot_masked_pred_trends_one_sample,

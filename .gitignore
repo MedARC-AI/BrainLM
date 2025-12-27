@@ -4,3 +4,5 @@ pretrained_models
 .ipynb_checkpoints/
 toolkit/sample_dataset/a424_fMRI_data/*
 toolkit/sample_dataset/raw_fMRI_data/*
+
+*.egg-info/

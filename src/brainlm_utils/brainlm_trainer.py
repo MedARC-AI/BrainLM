@@ -5,7 +5,7 @@ import torch.nn as nn
 import wandb
 from transformers import Trainer
 
-from utils.plots import plot_masked_pred_trends_one_sample
+from brainlm_utils.plots import plot_masked_pred_trends_one_sample
 
 
 class BrainLMTrainer(Trainer):

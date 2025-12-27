@@ -28,8 +28,8 @@ from transformers.utils.versions import require_version
 
 from brainlm_mae.modeling_brainlm import BrainLMForPretraining
 from brainlm_mae.configuration_brainlm import BrainLMConfig
-from utils.brainlm_trainer import BrainLMTrainer
-from utils.metrics import MetricsCalculator
+from brainlm_utils.brainlm_trainer import BrainLMTrainer
+from brainlm_utils.metrics import MetricsCalculator
 
 
 """ Pre-training a 🤗 ViT model as an MAE (masked autoencoder), as proposed in https://arxiv.org/abs/2111.06377."""

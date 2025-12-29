@@ -10,23 +10,22 @@ readme = "README.md"
 requires-python = ">=3.10"
 
 dependencies = [
+    "accelerate",
     "datasets",
     # "flash-attn",  # flash-attn not required
+    "ipython",
+    "jupyter",
+    "matplotlib",
     "nibabel",
+    "numba>=0.57.0",  # lower bound version to uv resolution issue
     "numpy",
     "pandas",
     "scipy",
     "scikit-learn",
+    "seaborn",
     "torch",
     "tqdm",
-    "transformers",
-    "wandb",
-]
-
-[project.optional-dependencies]
-
-plots = [
-    "matplotlib",
-    "seaborn",
+    "transformers<4.31",
     "umap-learn",
+    "wandb",
 ]
